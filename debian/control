@@ -1,0 +1,11 @@
+Source: python-gsmmodem-new
+Maintainer: Evgeny Boger <boger@contactless.ru>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools, python2.7-dev, debhelper (>= 7)
+Standards-Version: 3.9.1
+
+Package: python-gsmmodem-new
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, ${shlibs:Depends}, python-serial
+Description: Control an attached GSM modem: send/receive SMS messages, handle calls, etc

@@ -1,0 +1,5 @@
+python-gsmmodem-new (1:0.11) stable; urgency=medium
+
+  * initial debian release
+
+ -- Evgeny Boger <boger@contactless.ru>  Tue, 27 Dec 2016 20:51:20 +0300
